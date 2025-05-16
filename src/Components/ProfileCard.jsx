@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProfileCard = ({imgURL, name, title, desc}) => {
+const ProfileCard = ({imgURL="https://dummyimage.com/600x400/000/fff" , name="", title, desc}) => {
 
     const cardStyle = {
         border: '1px solid #ddd',
